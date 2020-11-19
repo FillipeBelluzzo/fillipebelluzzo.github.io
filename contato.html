@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="pt-br">
 
    <head>
 
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <title>Contato</title>
 
@@ -12,11 +13,13 @@
 
       <link rel="stylesheet" type="text/css" href="menu.css">
 
+      <link rel="stylesheet" type="text/css" href="formulario.css">
+
    </head>
 
    <body>
 
-      <section id="global">
+    
 
          <header id="topo">
 
@@ -41,23 +44,51 @@
          </header>
 
          <section id="conteudo">
+            
+            
 
-            <h1>Contate-nos:</h1>
+            <div id="formulario">
+               <form>
+                       <fieldset>
+                           <h2 class="account">Dúvidas? Pergunte pra gente!</h2>
+                              <ul>
+                                 <li>
+                                    <p class="pcentro">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" id="first_name" name="nome" class="large" required placeholder="Nome Completo" /></p>
+                                 </li>
+                                 <li>
+                                    <p class="pcentro">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" class="large" required placeholder="E-mail" /></p>
+                                   
+                                 </li>
+                               
+                                 <li>
+                                    <p class="pcentro">
+                                    <label for="mensagem">Mensagem:
+                                    </label></p>
 
-            <h2>Pizzaria Família</h2>
+                                 </li>
 
-               <p>(21) 1234-5678</p>
+                                 <li>
+                                    <p class="pcentro"><textarea name="mensagem"></textarea></p> 
+                                 </li>
+                               
+                                 <p class="pcentro"><input type="submit" name="submit" id="submit" value="Enviar"> </ul></p>
+                          
+                                 <p class="pcentro">Whats App: (32) 9123-4564</p>
+                                 <p class="pcentro">Telefone: 3333-1234</p> 
+                           
+                              </ul>
+                        </fieldset>
+               </form>
 
-               <p>(21) 1234-5678</p>
+            </div>
 
-               <p>(21) 91234-5678 (WhatsApp)</p>
-
-               <p>E-mail: pizzaria@hotmail.com</p>
 
          </section>
 
-
-       </section><!--fechamento do global-->
 
    </body>
 
