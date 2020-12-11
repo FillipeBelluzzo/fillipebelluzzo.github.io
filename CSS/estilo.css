@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	width:100%;
+	height:auto;
+	margin:auto;
+	background-color:#FFF;
+}
+
+#topo{
+    height:400px;
+	width: 100%; 
+	padding:20px;
+    background-color: #fff;
+	background-image:url(../img/banner.jpg);
+	background-size:cover;
+}
+
+#conteudo{
+	width:1200px;
+    height:100%;
+    padding:25px;
+    margin:auto;
+	clear:both;
+	background-color:#FFF;
+}
+
+#caixa-p{
+	width:900px;
+	height:auto;
+	padding:30px;
+	margin:auto;
+	background-color:#FFF;
+}
+
+.servicos{
+	width:515px;
+	height:auto;
+	float:left;
+	margin:20px;
+	background-color:#FFF;
+}
+
+#locais{
+	width:200px;
+	height:auto;
+	float:right;
+	background-color:#FFF;
+	}
+	
+
+
+#formulario{
+	height:auto;
+	width:500px;
+	float:left;
+}
+
+#banner{
+	height:300px;
+	width:900px;
+	margin:auto;
+	background-color:#CF2A2D;
+	clear:both;
+}
+
+#facebook{
+	height:500px;
+	width:620px;
+	padding:20px;
+	background-color:#FFF;
+	float:right;
+}
+
+.pcentro{
+	text-align:center;
+}
+
+
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size:130px;
+	text-align:center;
+	color:#FFF;
+	line-height:130px;
+}
+
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:40px;
+	color: #800E10;
+	text-align:center;
+}
+
+h3{
+	font-size:25px;
+}
+
+p{ font-size:15px;
+   font-family:Verdana, Geneva, sans-serif;
+}
+
+li{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+
+
+#titulo{
+	width:500px;
+	margin:auto;
+}
+
+#rodape{
+	width: 100%; 
+    height: 80px;
+    background-color:#800e10;
+	color:#FFF;
+	clear:both;
+	}
+
+

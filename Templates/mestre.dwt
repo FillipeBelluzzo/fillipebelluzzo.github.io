@@ -1,0 +1,52 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sem título</title>
+<!-- TemplateEndEditable -->
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+<link rel="stylesheet" type="text/css" href="../CSS/estilo-menu.css">
+<!-- TemplateBeginEditable name="head" -->
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<header>
+	<div id="topo">
+		<div id="titulo">
+    		<h1>Pizzas da Petrina</h1>
+		</div>
+	</div>
+   
+	<nav id="menu">
+		<ul id="menu-nav">
+    		<li class="item-menu"><a href="../index.html">Home</a></li>
+        	<li class="item-menu"><a href="../cardapio/cardapio.html">Cardápio</a></li>
+        	<li class="item-menu"><a href="../sobrenos/sobrenos.html">Sobre Nós</a></li>
+        	<li class="item-menu"><a href="../galeria/galeria.html">Galeria</a></li>
+        	<li class="item-menu"><a href="../contato/contato.html">Contato</a></li>
+		</ul>
+	</nav>
+</header>
+
+<section id="conteudo">
+<!-- TemplateBeginEditable name="conteudo" -->
+
+<!-- TemplateEndEditable -->
+</section><!--fecha conteúdo-->
+
+<footer id="rodape">
+   <p class="pcentro">Pizzas da Petrina</p>
+   <p  class="pcentro">Fixo: (21) 3117-1244 </p>
+   <p  class="pcentro">Claro: 97545-4944 </p>
+   <p  class="pcentro">WhatsApp/ Vivo: (21) 97124-4152</p>
+ 
+</footer>
+
+
+</body>
+</html>
